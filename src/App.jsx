@@ -3,6 +3,7 @@ import "./index.css";
 import Logo from "./Components/Logo";
 import Form from "./Components/Form";
 import PackingList from "./Components/PackingList";
+import Stats from "./Components/Stats";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Logo />
       <Form />
       <PackingList />
+      <Stats/>
     </div>
   );
 };
