@@ -2,8 +2,8 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div>
-      <h1>🌴Far Away💼</h1>
+    <div className="bg-[#db8336] text-center py-10">
+      <h1 className="text-[60px]">🌴FAR AWAY💼</h1>
     </div>
   );
 };
