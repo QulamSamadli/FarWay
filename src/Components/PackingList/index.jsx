@@ -2,7 +2,7 @@ import React from 'react'
 
 const PackingList = () => {
   return (
-    <div>PackingList</div>
+    <div>LIST</div>
   )
 }
 

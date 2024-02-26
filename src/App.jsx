@@ -1,10 +1,17 @@
-import React from 'react'
-import './App.css'
+import React from "react";
+import "./index.css";
+import Logo from "./Components/Logo";
+import Form from "./Components/Form";
+import PackingList from "./Components/PackingList";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Logo />
+      <Form />
+      <PackingList />
+    </div>
+  );
+};
 
-export default App
+export default App;
