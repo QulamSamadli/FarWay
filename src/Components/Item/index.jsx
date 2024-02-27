@@ -1,10 +1,13 @@
 import React from "react";
 
-const Item = ({ item }) => {
+const Item = ({ item, quantity, packed = true }) => {
   return (
-    
-      <li>{item}</li>
-    
+    <li>
+      <span className={` line-through`}>
+        {quantity} {item}
+      </span>
+      <button>❌</button>
+    </li>
   );
 };
 
